@@ -9,10 +9,14 @@
   },
   "dependencies": {
     "@adobe/gatsby-theme-aio": "^4.14.14",
+    "axios": "0.30.0",
     "gatsby": "4.22.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "uxp-documentation": "github:adobedocs/uxp#v8.1.0"
+  },
+  "overrides": {
+    "axios": "0.30.0"
   },
   "scripts": {
     "start": "gatsby build && gatsby serve",
@@ -46,6 +50,7 @@
     "remark-validate-links": "^12.1.0"
   },
   "resolutions": {
+    "axios": "0.30.0",
     "sharp": "0.33.0",
     "gatsby-sharp": "1.12.0"
   }
